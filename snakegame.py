@@ -1,5 +1,4 @@
 import pygame
-import time
 import random
 
 pygame.init() #initialises all imported modules
@@ -233,7 +232,6 @@ def gameLoop():
 
     pygame.quit()
     quit()
-
 
 def gameLoop2():
     game_over = False
