@@ -358,7 +358,6 @@ def gameLoop2():
         elif global_snake_speed0 == True:
             real_snake_speed = 0
             break
-
         clock.tick(real_snake_speed)
 
     pygame.quit()
